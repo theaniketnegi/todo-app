@@ -1,0 +1,37 @@
+.input_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+}
+
+.input{
+    padding: .5em .5em;
+    font-size: 1.25rem;
+    width: 100%;
+    margin-right: .5em;
+}
+
+.input:focus, .input:active
+{
+    outline: none;
+}
+
+.add_button{
+    padding: 1em 1.5em;
+    background-color: rgb(118, 118, 255);
+    text-align: center;
+    border:0;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.add_button:hover{
+    background-color: rgb(146, 146, 255);
+}
+
+.add_button:active{
+    background-color: rgb(102, 102, 255);
+}
+.span{
+    color: white;
+}

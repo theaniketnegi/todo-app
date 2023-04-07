@@ -1,0 +1,37 @@
+.container{
+    display:flex;
+    background-color: rgb(235, 235, 235);
+    margin-bottom: 1em;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.container:last-child{
+    margin-bottom: 0;
+}
+.container_content{
+    padding: .25em 1em;
+    display: flex;
+    align-items: center;
+}
+
+.button{
+    display:inline-block;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 1.5em;
+    background-color: rgb(255, 71, 65);
+    color:white;
+    font-size: 1rem;
+}
+
+.button:hover{
+    background-color: rgb(254, 104, 98);
+}
+
+.button:active{
+    background-color: rgb(255, 58, 52);
+}
